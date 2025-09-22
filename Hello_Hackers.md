@@ -19,8 +19,9 @@ N/A
 
 ## References 
 N/A
+
 ------------------------------------------------------------------------------------------------------------------------------
-# Challenge 2:Intro to Arguments
+# Challenge 2: Intro to Arguments
 This challenge is about learning about Arguments of a command in Linux
 
 ## My solve
@@ -41,6 +42,7 @@ N/A
 
 ## References 
 N/A
+
 ------------------------------------------------------------------------------------------------------------------------------
 # Challenge 3: Command History
 This challenge expects you to scroll through the history of your line commands for ease of solving
@@ -61,4 +63,5 @@ N/A
 
 ## References 
 N/A
+
 
