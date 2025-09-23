@@ -1,24 +1,19 @@
-# Challenge 8 : Implicit relative paths
-The challenge shows you how to use `.` to invoke a program in the current directory
+# Challenge 1 : The_Root
+The challenge is about the root directory and invoking programs present in it
 
 ## My solve
-**Flag:** `pwn.college{Ei_qc50q0mE9hlryF389M3qf15O.QXxUTN0wiM5kjNzEzW}`
+**Flag:** `pwn.college{4M-jiULVJdNZZ0wWu62x0PLMKfV.QX4cTO0wiM5kjNzEzW}`
 
-- Change directory to `/challenge` and after which input `./run` instead of just `run` as that will not be able to invoke the program
+As instructed in the challenge, I invoked the program by inputting the absolute path of 'pwn' by starting with `/`
 ```
-hacker@paths~implicit-relative-path:~$ cd /challenge
-hacker@paths~implicit-relative-path:/challenge$ run
-bash: run: command not found
-hacker@paths~implicit-relative-path:/challenge$ ./run
-Correct!!!
-./run is a relative path, invoked from the right directory!
+hacker@paths~the-root:~$ /pwn
+BOOM!!!
 Here is your flag:
-pwn.college{Ei_qc50q0mE9hlryF389M3qf15O.QXxUTN0wiM5kjNzEzW}
+pwn.college{4M-jiULVJdNZZ0wWu62x0PLMKfV.QX4cTO0wiM5kjNzEzW}
 ```
 
 ## What I learned 
-I learnt the use case of `.` in commands and that Linux will avoid looking for 'naked' paths in a current directory
-I also learnt what a 'naked' path is
+This challenge taught me about invoking a program using its absolute path and what a root directory is.
 
 ## Incorrect tangents 
 N/A
