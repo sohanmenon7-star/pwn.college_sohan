@@ -1,5 +1,5 @@
 # Challenge 4 : Redirecting errors
-This challenge asks you to redirect multipple file descriptors at once by redirecting outputs to one file and errors to another
+This challenge asks you to redirect multiple file descriptors at once by redirecting outputs to one file and errors to another
 
 ## My solve
 **Flag:** `pwn.college{0ifqAwYEAF1-q6Jb1Ygj_DY6B3k.QX3YTN0wiM5kjNzEzW}` 
