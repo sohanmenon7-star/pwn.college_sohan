@@ -2,15 +2,14 @@
 This challenge asks you to input the values of a variable in the shell by providing it with stdin using `read`
 
 ## My solve
-**Flag:** `pwn.college{wb7RmoxP2Voy24_Asn0NqZmKodq.QX1cDN1wiM5kjNzEzW}`
+**Flag:** `pwn.college{8VJ7O-qRUiCUwAzajjhB5TMeLbN.QX4cTN0wiM5kjNzEzW}`
 
 As explained in the challenge I used `read` with argument PWN vairable to accept input from the user and setting the value as COLLEGE. This gave me the flag
 ```
-hacker@variables~storing-command-output:~$ PWN=$(/challenge/run)
-Congratulations! You have read the flag into the PWN variable. Now print it out
-and submit it!
-hacker@variables~storing-command-output:~$ echo $PWN
-pwn.college{wb7RmoxP2Voy24_Asn0NqZmKodq.QX1cDN1wiM5kjNzEzW}
+hacker@variables~reading-input:~$ read PWN
+COLLEGE
+You've set the PWN variable properly! As promised, here is the flag:
+pwn.college{8VJ7O-qRUiCUwAzajjhB5TMeLbN.QX4cTN0wiM5kjNzEzW}
 ```
 
 ## What I learned 
