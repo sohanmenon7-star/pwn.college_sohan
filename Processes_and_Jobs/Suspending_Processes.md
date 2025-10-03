@@ -4,9 +4,7 @@ To obtain the flag in this challenge, You have to run a program, suspend it and 
 ## My solve
 **Flag:** `pwn.college{IGfevXoa170Xd2bsEtEtjlYn7ug.QX1QDO0wiM5kjNzEzW}`
 
-- As explained in the challenge, I first used `ps aux` to find the decoy flag process
-- Then I killed it using `kill` after which I ran /challenge/run to write the flag into the named pipe
-- To obtain the flag, I simply `cat` the named pipe 
+As told in the challenge, I ran /challenge/run, suspended it using `Ctrl-Z` and then it ran it again to obtain the flag
 ```
 hacker@processes~suspending-processes:~$ /challenge/run
 I'll only give you the flag if there's already another copy of me running in
