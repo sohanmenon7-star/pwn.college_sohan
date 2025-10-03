@@ -35,7 +35,7 @@ pwn.college{IGfevXoa170Xd2bsEtEtjlYn7ug.QX1QDO0wiM5kjNzEzW}
 ```
 
 ## What I learned 
-I learned there is a less drastic way of getting the terminal back, that being `Ctrl-Z` which suspends the ongoig process, meaning it still runs just in the background
+I learned there is a less drastic way of getting the terminal back, that being `Ctrl-Z` which suspends the ongoig process, meaning it stays in a suspended state until resumed 
 
 ## Incorrect tangents 
 N/A
