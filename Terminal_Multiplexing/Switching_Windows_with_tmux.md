@@ -2,7 +2,7 @@
 In this challenge, you have to switch windows using keyboard shortcuts in tmux instead of screen
 
 ## My solve
-**Flag:** `pwn.college{cUUKKaHxfshKKSLcBkQWZyZ5LVf.0FO4IDOxwiM5kjNzEzW}`
+**Flag:** `pwn.college{w2hBtbKa1p-6EVJUUEVXPWqZe7B.0FM5IDOxwiM5kjNzEzW}`
 
 - I simply used `tmux a` to open the termninal with windows in it
 - I then used the keyboard shortcut Ctrl-B n to switch the next window
